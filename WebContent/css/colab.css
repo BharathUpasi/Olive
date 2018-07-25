@@ -1,0 +1,57 @@
+header.masthead{
+    background-attachment: fixed;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link{
+    border-bottom: 2px solid transparent;
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover{
+    text-shadow: 0px 0px 13px #333;
+    border-color:#fed136;
+}
+
+.intro-text > .intro-heading{
+    text-shadow: 1px 2px 15px #333;
+    padding-bottom:18px;
+    color:#fed136;
+}
+
+.intro-heading>span{
+    border-bottom: 4px solid #fd3;
+}
+
+
+/* JOIN PAGE */
+header.masthead {
+   
+    background-color: hsla(45, 100%, 80%, 0.336);
+    background-image:url(../img/header-bg-join.jpg);
+    
+} 
+
+
+header.mastheadDiv {
+   
+    background-color: hsla(45, 100%, 80%, 0.336);
+    background-image:url(../img/header-bg-join.jpg);
+}   
+.masthead-sm .intro-text{
+    padding-top:150px!important;
+    padding-bottom:50px!important;
+}
+
+.form-control:focus{
+    border-color:#fd3;
+    box-shadow: 0 0 0 0.2rem hsla(50, 100%, 80%, 0.25);
+}
+.searchable-container{margin:10px 0 0 0}
+.searchable-container label.btn-default.active{background-color:#007ba7;color:#FFF}
+.searchable-container label.btn-default{width:90%;border:1px solid #efefef;margin:5px; box-shadow:5px 8px 8px 0 #ccc;}
+.searchable-container label .bizcontent{width:100%;}
+.searchable-container .btn-group{width:90%}
+.searchable-container .btn span.glyphicon{
+    opacity: 0;
+}
+.searchable-container .btn.active span.glyphicon {
+    opacity: 1;
+}
